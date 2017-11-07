@@ -11,4 +11,7 @@ func main() {
 
 	fmt.Println("Sideways Triangle")
 	chapter2.Sidewaystriangle()
+
+	fmt.Println("Luhn Checksum Validation")
+	chapter2.ValidateLuhnChecksum()
 }
