@@ -1,3 +1,9 @@
+# Vim swap files
+*.swp
+
+# Default binary name
+think-like-a-programmer
+
 # Binaries for programs and plugins
 *.exe
 *.dll
