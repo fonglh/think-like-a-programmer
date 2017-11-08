@@ -14,4 +14,7 @@ func main() {
 
 	fmt.Println("Luhn Checksum Validation")
 	chapter2.ValidateLuhnChecksum()
+
+	fmt.Println("Decode a message")
+	chapter2.DecodeMessage()
 }
