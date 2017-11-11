@@ -10,7 +10,13 @@ func main() {
 	chapter2.Halfsquare()
 
 	fmt.Println("Sideways Triangle")
-	chapter2.Sidewaystriangle()
+	chapter2.SidewaysTriangle()
+
+	fmt.Println("Inverted Triangle")
+	chapter2.InvertedTriangle()
+
+	fmt.Println("Diamond")
+	chapter2.Diamond()
 
 	fmt.Println("Luhn Checksum Validation")
 	chapter2.ValidateLuhnChecksum()
