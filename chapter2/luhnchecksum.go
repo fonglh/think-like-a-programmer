@@ -16,9 +16,9 @@ func sumDoubledDigit(digit int) int {
 }
 
 // Read input from the user, then return a slice of the individual digits as integers.
-func readInput() []int {
+func readInput(prompt string) []int {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter number for Luhn Checksum Validation: ")
+	fmt.Print(prompt)
 	inputString, _ := reader.ReadString('\n')
 
 	numbers := make([]int, len(inputString)-1)
@@ -54,7 +54,7 @@ func calculateChecksum(numbers []int) int {
 }
 
 func ValidateLuhnChecksum() {
-	numbers := readInput()
+	numbers := readInput("Enter number for Luhn Checksum Validation: ")
 	checksum := calculateChecksum(numbers)
 
 	if checksum%10 == 0 {
