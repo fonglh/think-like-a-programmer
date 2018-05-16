@@ -5,7 +5,7 @@ import (
 	"github.com/fonglh/think-like-a-programmer/chapter2"
 )
 
-func main() {
+func chapter2Tests() {
 	fmt.Println("Half Square")
 	chapter2.Halfsquare()
 
@@ -23,4 +23,12 @@ func main() {
 
 	fmt.Println("Decode a message")
 	chapter2.DecodeMessage()
+
+	// Exercise 2-6
+	fmt.Println("Convert to binary")
+	chapter2.BinaryConvert()
+}
+
+func main() {
+	fmt.Println("Chapter 3")
 }
