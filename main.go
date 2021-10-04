@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/fonglh/think-like-a-programmer/chapter2"
+	"github.com/fonglh/think-like-a-programmer/chapter3"
 )
 
 func chapter2Tests() {
@@ -29,6 +31,12 @@ func chapter2Tests() {
 	chapter2.BinaryConvert()
 }
 
+func chapter3Tests() {
+	fmt.Println("Find Mode")
+	fmt.Println(chapter3.FindMode([]int{4, 7, 3, 8, 9, 7, 3, 9, 9, 3, 3, 10}))
+}
+
 func main() {
 	fmt.Println("Chapter 3")
+	chapter3Tests()
 }
