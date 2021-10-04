@@ -34,6 +34,7 @@ func chapter2Tests() {
 func chapter3Tests() {
 	fmt.Println("Find Mode")
 	fmt.Println(chapter3.FindMode([]int{4, 7, 3, 8, 9, 7, 3, 9, 9, 3, 3, 10}))
+	fmt.Println(chapter3.FindMode([]int{4, 7, 3, 8, 9, 7, 3, 9, 9, 9, 9, 9, 3, 3, 10}))
 }
 
 func main() {
